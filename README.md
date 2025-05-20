@@ -2,7 +2,9 @@
 
 2) No, I would NOT use an end to end test to check if a function is returning the correct output. That would instead require a unit test.
 
-3) 
+3) The difference between navigation and snapshot mode is that navigation mode analyzes a page right after it loads and provides a wider range of general performance metrics, while snapshot mode analyzes a page in its current state and is useful for finding relevant accessibility metrics.
+
+4) Based on the Lighthouse results, 3 things we could do to improve the CSE 110 shop site are: properly size the images to save cellular data and improve load time; include a "<meta-name = "viewport">" tag to prevent delay for the user and optimize the site for mobile screen sizes; and serve images in next-gen formats, like WebP and AVIF instead of JPEG or PNG, for less data consumption and faster downloads.
 
 
 
