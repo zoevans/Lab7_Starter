@@ -129,8 +129,6 @@ describe('Basic user flow for Website', () => {
         await queryButton.click(); //click the button of item
       }
 
-      console.log(`Clicking item ${i + 1} of ${prodItemElements.length}`);
-
     }
 
     const cartCount = await page.$('#cart-count');
